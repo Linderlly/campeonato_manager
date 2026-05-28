@@ -7,6 +7,5 @@ from "@vitejs/plugin-react"
 export default defineConfig({
   plugins: [react()],
 
-  base:
-    "/campeonato_manager/",
+  base: "/campeonato_manager/",
 })

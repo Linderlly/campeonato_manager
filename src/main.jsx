@@ -1,32 +1,41 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from "react"
 
-import App from './App'
+import ReactDOM from "react-dom/client"
 
-import './index.css'
+import App from "./App"
+
+import "./index.css"
 
 import {
   ToastContainer
-} from 'react-toastify'
+} from "react-toastify"
 
-import 'react-toastify/dist/ReactToastify.css'
+import "react-toastify/dist/ReactToastify.css"
 
 import {
   AuthProvider
-} from './contexts/AuthContext'
+} from "./contexts/AuthContext"
+
+import {
+  HashRouter
+} from "react-router-dom"
 
 ReactDOM
   .createRoot(
-    document.getElementById('root')
+    document.getElementById("root")
   )
   .render(
-    <AuthProvider>
-      <App />
+    <React.StrictMode>
+      <HashRouter>
+        <AuthProvider>
+          <App />
 
-      <ToastContainer
-        position="top-right"
-        autoClose={3000}
-        theme="dark"
-      />
-    </AuthProvider>
+          <ToastContainer
+            position="top-right"
+            autoClose={3000}
+            theme="dark"
+          />
+        </AuthProvider>
+      </HashRouter>
+    </React.StrictMode>
   )
