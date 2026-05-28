@@ -1266,7 +1266,7 @@ Total Duration: ${c-l}ms`),Z.resolve({didRun:!0,sequenceNumbersCollected:r,targe
             xl:grid-cols-4\r
             gap-6\r
             mb-10\r
-          `,children:[(0,V.jsx)(tF,{title:`Campeonatos`,value:e.length,icon:(0,V.jsx)(ed,{})}),(0,V.jsx)(tF,{title:`Jogadores`,value:n,icon:(0,V.jsx)(td,{})}),(0,V.jsx)(tF,{title:`Partidas`,value:24,icon:(0,V.jsx)(Qu,{})}),(0,V.jsx)(tF,{title:`Campeões`,value:e.filter(e=>e.champion).length,icon:(0,V.jsx)(Uu,{})})]}),(0,V.jsxs)(`div`,{children:[(0,V.jsx)(`h2`,{className:`\r
+          `,children:[(0,V.jsx)(tF,{title:`Campeonatos`,value:e.length,icon:(0,V.jsx)(ed,{})}),(0,V.jsx)(tF,{title:`Jogadores`,value:n,icon:(0,V.jsx)(td,{})}),(0,V.jsx)(tF,{title:`Partidas`,value:0,icon:(0,V.jsx)(Qu,{})}),(0,V.jsx)(tF,{title:`Campeões`,value:e.filter(e=>e.champion).length,icon:(0,V.jsx)(Uu,{})})]}),(0,V.jsxs)(`div`,{children:[(0,V.jsx)(`h2`,{className:`\r
               text-4xl\r
               font-black\r
               mb-8\r
